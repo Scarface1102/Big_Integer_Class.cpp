@@ -8,14 +8,14 @@ class BigInt
     #undef ll
     typedef long long int ll;
     typedef vector<int> vi;
-    #define defBase 1000000000 // change this accordingly if you are using Convert_Base function
+    #define defBase 1000000000
     ll pow10;
     int Base;
     vi a;
     bool sign;
     void read(string &s)
     {
-        a.clear(); // Clearing previous value if there was any.
+        a.clear(); // For clearing previous values
         sign = 1;
         ll curr;
         int k = 0;
